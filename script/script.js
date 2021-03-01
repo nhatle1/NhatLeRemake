@@ -6,10 +6,3 @@ function dropdownmenu() {
         x.className = "topnav";
     }
 }
-
-jQuery(document).ready(function(){
-    jQuery('#slidingbar').slippry({
-        start: 'random',
-        speed: 1200
-    });
-});

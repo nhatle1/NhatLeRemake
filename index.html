@@ -21,13 +21,29 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="images/logo.png" alt="logo pic" class="logo"></a>
+        <div class="logo-container">
+            <a href="index.html"><img src="images/logo.png" alt="logo pic" class="logo"></a>
+        </div>
+        <label>
+            <div class="search-box">
+                <button type="button" class="btn btn-light search-btn"><i class="fa fa-search fa-2x"></i></button>
+                <input type="text">
+            </div>
+            <div class="shopping-cart-btn">
+                <a href="giohang.html"><button type="button" class="btn btn-light"><i class="fa fa-shopping-cart fa-2x"></i></button></a>
+                <div class="number-of-products">0</div>
+            </div>
+        </label>
     </header>
     <nav>
         <div class="navforicon">
             <div class="dropdownicon">
                 <a href="javascript:void(0);" onclick="dropdownmenu()">&#9776;</a>
             </div>
+            <label>
+                <button type="button" class="btn btn-primary shopping-cart-btn"><i class="fa fa-shopping-cart fa-lg"></i></button>
+                <button type="button" class="btn btn-primary search-btn"><i class="fa fa-search fa-lg"></i></button>
+            </label>
         </div>
         <ul class="topnav" id="navbar">
             <li><a href="mayphoto.html">máy photocopy</a></li>
